@@ -17,10 +17,10 @@ namespace Join4
         Button[] buttons = new Button[42];
 
         // The X and Y offset of the entire board
-        int boardOffsetX = 58, 
-            boardOffsetY = 65;
+        int boardOffsetX = 80, 
+            boardOffsetY = 80;
         // The size of the buttons
-        int buttonSize = 100;
+        int buttonSize = 200;
         
         public MainForm()
         {
@@ -45,7 +45,7 @@ namespace Join4
             }
 
             InitializeComponent();
-            Size = new Size(570, 550);
+            Size = new Size(600, 600);
             Console.WriteLine(Size);
         }
         
